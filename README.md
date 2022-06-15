@@ -1,6 +1,6 @@
 # Simple-web-file-storage
 
-To start "go run main/main.go"
+To start "go run main/main.go". Open localhost:8080
 
 принимает файл, делит его на части по мегабайту, если какая-то часть получается меньше 1 мб, то дописывает туда байты (нулями) и сохраняет у себя
 
