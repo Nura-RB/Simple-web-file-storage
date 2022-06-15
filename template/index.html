@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Upload File</title>
+  </head>
+  <body>
+    <h2>Put your file</h2>
+    <form
+      enctype="multipart/form-data" action="http://localhost:8080/" method="post">
+      <input type="file" name="myFile" />
+      <input type="submit" value="upload" />
+    </form>
+    <h2>Type name of the file you want to download</h2>
+    <form method="post" enctype="multipart/form-data" action="http://localhost:8080/">
+        <input type="text" name="getFile">
+        <input type="submit" value="download">
+    </form>
+  </body>
+</html>
